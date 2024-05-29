@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Textfield extends StatefulWidget {
+class Textfield   extends StatefulWidget {
   const Textfield({super.key});
 
   @override
@@ -10,6 +10,9 @@ class Textfield extends StatefulWidget {
 
 class _TextfieldState extends State<Textfield> {
   String userInput='';
+  final myController =TextEditingController();
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
